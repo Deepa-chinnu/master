@@ -5,7 +5,7 @@
     </xs:restriction>
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="employee" maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="Employee" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="From"/>
